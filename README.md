@@ -32,17 +32,6 @@ Uygulama açılışta bir **seçim paneli** ile karşılar; kullanıcı buradan 
 | **Mesajlar** | Doktorlarla yazışma |
 | **Duyurular** | Hastane duyurularını okuma |
 
-### Uygulanan İş Kuralları
-
-- Aynı doktora aynı tarih-saatte ikinci randevu açılamaz (çakışma kontrolü)
-- Geçmiş tarih/saate randevu oluşturulamaz
-- Geçmiş randevular iptal edilemez, iptal edilmiş randevu tekrar iptal edilemez
-- TCKN 11 haneli ve yalnızca rakam olmalı, veritabanında benzersizdir (`2627/2601` hataları yakalanır)
-- Telefon 10–15 rakam aralığında, e-posta regex ile doğrulanır
-- Doğum tarihi gelecekte olamaz
-- Tüm SQL sorguları parametreli çalışır (SQL injection'a karşı)
-
----
 
 ## Kullanılan Teknolojiler
 
